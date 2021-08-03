@@ -87,7 +87,7 @@ public class CategoryController {
     public ResponseEntity<List<Category>> search(@RequestBody CategorySearchValues categorySearchValues) {
         MyLogger.debugMethodName("CategoryController: search() --------------------------------------");
 
-        List<Category> list = categoryService.findByTitle(categorySearchValues.getTitle(), categorySearchValues.getEmail());
+        List<Category> list = categoryService.find(categorySearchValues.getTitle(), categorySearchValues.getEmail());
 
         return ResponseEntity.ok(list);
 

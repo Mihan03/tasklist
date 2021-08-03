@@ -33,8 +33,8 @@ public class CategoryService {
         categoryRepository.deleteById(id);
     }
 
-    public List<Category> findByTitle(String text, String email) {
-        return categoryRepository.findByTitle(text, email);
+    public List<Category> find(String title, String email) {
+        return categoryRepository.find(title, email);
     }
 
     public Category findById(Long id) {

@@ -20,5 +20,5 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
 
     "ORDER by c.title asc")
 
-    List<Category> findByTitle(@Param("title") String title, @Param("email") String email);
+    List<Category> find(@Param("title") String title, @Param("email") String email);
 }
