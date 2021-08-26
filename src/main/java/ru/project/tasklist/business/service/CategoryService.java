@@ -5,9 +5,11 @@ import org.springframework.stereotype.Service;
 import ru.project.tasklist.business.entity.Category;
 import ru.project.tasklist.business.repository.CategoryRepository;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
+@Transactional
 public class CategoryService {
 
     private CategoryRepository categoryRepository;
