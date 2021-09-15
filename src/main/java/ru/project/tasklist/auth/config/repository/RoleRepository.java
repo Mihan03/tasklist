@@ -5,7 +5,9 @@ import org.springframework.stereotype.Repository;
 import ru.project.tasklist.auth.config.entity.Role;
 import ru.project.tasklist.business.entity.Category;
 
+import java.util.Optional;
+
 @Repository
 public interface RoleRepository extends JpaRepository<Role, Long> {
-
+    Optional<Role> findByName(String name);
 }

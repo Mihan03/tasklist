@@ -21,7 +21,7 @@ public class Activity {
 
     @Type(type = "org.hibernate.type.NumericBooleanType")
     @Column
-    private Short activated;
+    private boolean activated;
 
     @NotBlank
     @Column(updatable = false)
