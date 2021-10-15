@@ -1,15 +1,10 @@
-package ru.project.tasklist.auth.config.entity;
+package ru.project.tasklist.auth.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import ru.project.tasklist.business.entity.Category;
-import ru.project.tasklist.business.entity.Priority;
-import ru.project.tasklist.business.entity.Stat;
-import ru.project.tasklist.business.entity.Task;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
-import java.util.Collection;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;

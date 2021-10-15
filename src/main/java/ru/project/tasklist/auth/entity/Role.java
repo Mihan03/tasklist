@@ -1,4 +1,4 @@
-package ru.project.tasklist.auth.config.entity;
+package ru.project.tasklist.auth.entity;
 
 import lombok.Getter;
 import lombok.Setter;

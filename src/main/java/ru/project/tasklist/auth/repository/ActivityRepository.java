@@ -1,4 +1,4 @@
-package ru.project.tasklist.auth.config.repository;
+package ru.project.tasklist.auth.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
@@ -6,10 +6,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import ru.project.tasklist.auth.config.entity.Activity;
-import ru.project.tasklist.business.entity.Category;
+import ru.project.tasklist.auth.entity.Activity;
 
-import java.util.List;
 import java.util.Optional;
 
 @Repository

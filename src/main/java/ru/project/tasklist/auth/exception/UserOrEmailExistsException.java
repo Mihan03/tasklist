@@ -1,4 +1,4 @@
-package ru.project.tasklist.auth.config.exception;
+package ru.project.tasklist.auth.exception;
 
 import org.springframework.security.core.AuthenticationException;
 

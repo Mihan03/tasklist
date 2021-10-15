@@ -1,11 +1,11 @@
-package ru.project.tasklist.auth.config.service;
+package ru.project.tasklist.auth.service;
 
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import ru.project.tasklist.auth.config.entity.User;
+import ru.project.tasklist.auth.entity.User;
 
 import java.util.Collection;
 import java.util.stream.Collectors;

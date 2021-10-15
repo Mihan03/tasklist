@@ -4,7 +4,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import ru.project.tasklist.auth.config.entity.User;
+import ru.project.tasklist.auth.entity.User;
 
 import javax.persistence.*;
 import java.sql.Timestamp;

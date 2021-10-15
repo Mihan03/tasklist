@@ -1,13 +1,13 @@
-package ru.project.tasklist.auth.config.service;
+package ru.project.tasklist.auth.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.project.tasklist.auth.config.entity.Activity;
-import ru.project.tasklist.auth.config.entity.Role;
-import ru.project.tasklist.auth.config.entity.User;
-import ru.project.tasklist.auth.config.repository.ActivityRepository;
-import ru.project.tasklist.auth.config.repository.RoleRepository;
-import ru.project.tasklist.auth.config.repository.UserRepository;
+import ru.project.tasklist.auth.entity.Activity;
+import ru.project.tasklist.auth.entity.Role;
+import ru.project.tasklist.auth.entity.User;
+import ru.project.tasklist.auth.repository.ActivityRepository;
+import ru.project.tasklist.auth.repository.RoleRepository;
+import ru.project.tasklist.auth.repository.UserRepository;
 
 import javax.transaction.Transactional;
 import java.util.Optional;

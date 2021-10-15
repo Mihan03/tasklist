@@ -1,4 +1,4 @@
-package ru.project.tasklist.auth.config.objects;
+package ru.project.tasklist.auth.objects;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

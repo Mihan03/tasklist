@@ -1,4 +1,4 @@
-package ru.project.tasklist.auth.config.entity;
+package ru.project.tasklist.auth.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;

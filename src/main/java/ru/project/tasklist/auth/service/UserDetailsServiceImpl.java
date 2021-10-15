@@ -1,4 +1,4 @@
-package ru.project.tasklist.auth.config.service;
+package ru.project.tasklist.auth.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -6,8 +6,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.project.tasklist.auth.config.entity.User;
-import ru.project.tasklist.auth.config.repository.UserRepository;
+import ru.project.tasklist.auth.entity.User;
+import ru.project.tasklist.auth.repository.UserRepository;
 
 import java.util.Optional;
 

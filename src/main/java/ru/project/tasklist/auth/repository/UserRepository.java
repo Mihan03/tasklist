@@ -1,10 +1,10 @@
-package ru.project.tasklist.auth.config.repository;
+package ru.project.tasklist.auth.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import ru.project.tasklist.auth.config.entity.User;
+import ru.project.tasklist.auth.entity.User;
 
 import java.util.Optional;
 
